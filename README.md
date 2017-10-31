@@ -13,9 +13,13 @@ Kenapa Odoo?
 Kelebihan Odoo?
 
 •	Data tiap modul lengkap dan saling terintegrasi
+
 •	Karena saling terintegrasi, redundansi dapat dihindari
+
 •	Multi Platform
+
 •	Akses informasi yang terpercaya
+
 •	Hemat waktu dan biaya, serta control yg mudah dalam skala Enterprise
 
 Kekurangan Odoo?
