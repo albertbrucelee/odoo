@@ -130,15 +130,16 @@ Lebih Lanjut: [PostgreSQL Installation](https://www.postgresql.org/download/linu
 
 
 # Cara Pemakaian
+Cara menggunakan Odoo sebenarnya mudah. Odoo membagi proses bisnis menjadi beberapa bagian yang dapat dimanajemen oleh pengguna. Bahkan dari proses bisnis tersebut dibagi lagi ke dalam sub-bagian, sehingga pengguna dapat sementara mengalihkan gambaran besar dalam dalam bagian kecil yang lebih mudah dimanajemen.
 ##### 1. Login ke halaman Odoo
-Masuk ke halaman administrasi Odoo melalui web browser pada alamat [localhost:8069](http://localhost:8080) dengan dengan akun default emal: **admin** dan password: **admin**.
+Masuk ke halaman administrasi Odoo melalui web browser pada alamat [localhost:8069](http://localhost:8080) dengan dengan akun default email: **admin** dan password: **admin**.
 ![Login screen](https://raw.githubusercontent.com/faruqsandi/odoo/master/image/1.usage-login.png)
 ##### 2. Halaman administrasi Odoo
 Jika berhasil masuk, maka Odoo secara otomatis akan mengarahkan ke halaman #inbox seperti pada gambar di bawah ini:
 ![Halaman #inbox](https://raw.githubusercontent.com/faruqsandi/odoo/master/image/2.usage-inbox.png)
 Halaman #inbox secara default menampilkan ringkasan dari kotak masuk yang dimiliki oleh pengguna. 
 ##### 3. Baris menu utama
-Pada baris menu atas, terdapat kumpulan menu utama yang terdiri dari Discuss, Calendar, Contacts, CRM, Apps, dan Setting.
+Pada baris menu atas, terdapat kumpulan menu utama yang terdiri dari **Discuss**, **Calendar**, **Contacts**, **CRM**, **Apps**, dan **Setting**.
 ##### 4. Discuss
 ![Halaman Discuss](https://raw.githubusercontent.com/faruqsandi/odoo/master/image/3.usage-inbox-conversation.png)
 Menu **Discus** menyediakan layanan untuk berkomunikasi dengan orang lain, termasuk percakapan melalui direct **message**, **channel**, dan **private channel**. Pada bilah sisi sebelah kanan, juga terdapat **Channel** yang berfungsi seperti *chat room*.
