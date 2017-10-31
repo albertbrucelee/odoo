@@ -135,6 +135,18 @@ Lebih Lanjut: [PostgreSQL Installation](https://www.postgresql.org/download/linu
 2. Buka browser dan akses `http://localhost:8069/`
 
 
+# Konfigurasi
+[`^ kembali ke atas ^`](#)
+
+
+# Maintenance
+[`^ kembali ke atas ^`](#)
+
+
+# Otomatisasi
+[`^ kembali ke atas ^`](#)
+
+
 # Cara Pemakaian
 [`^ kembali ke atas ^`](#)
 
