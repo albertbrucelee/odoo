@@ -161,6 +161,18 @@ Menu **Settings** adalah tempat untuk melakukan konfigurasi utama dari Odoo. Mul
 
 
 # Pembahasan
+Pembahasan Odoo
+Odoo dibuat menggunakan bahasa pemrograman python, javascript, dan memanfaatkan XML sebagai webservice. Seperti yang sudah dijelaskan di awal Odoo merupakan aplikasi Enterprise Resource Planning (ERP). Di mana aplikasi ini berguna untuk mengorganisir atau memanajemen sumber daya perusahaan. Karena perkembangan yang begitu cepat saat ini Odoo telah mendukung 18 bahasa. Kelebihan lain dari odoo adalah didalamnya tersedia banyak modul yang bisa dimanfaatkan. Antara lain baik human resource, gaji karywan, inventory/asset perusahaan, dan masih banyak lagi. Selain itu ada modul blog untuk membuat artikel dan blog untuk perusahaan. Tidak semua modul langsung diinstall akan tetapi dapat disesuaikan dengan kebutuhan pengguna.
+
+Berikut akan dijelaskan beberapa modul yang ada di dalam Odoo  :
+a.	Contacts 
+Modul ini digunakan untuk mendata karyawan ataupun perusahaan rekanan/vendor, beberapa atribut yang dimasukkan antara lain nama, alamat, nomor telepon, email, jabatan, bank account, 
+b.	Customer Relationship Management (CRM)
+CRM ini jika dilihat mirip dengan Trello, jadi nanti akan disediakan board nah masing-masing board dapat dipindah ke state tertentu. Cara kerjanya seperti pipeline. Misalnya ada keluhan nanti bisa dilihat progresnya, sudah sampai mana keluhan apakah keluhan tersebut sudah selesai ditanggapi atau belum. Sehingga pemilik state tahu apa yang harus dia kerjakan.
+c.	Discuss
+Digunakan untuk diskusi atau chatting, ada label general pada label general semua pengguna dapat melihat semua pesan yang ada didalamnya dan semua pengguna dapat membalasa pesan satu sama lain. Jika kita membuat sebuah tim cukup membuat grup baru dan hanya anggota yang diundang yang dapat melakukan diskusi (internal).  semacam Slack. 
+
+
 Kelebihan Odoo?
 - Data tiap modul lengkap dan saling terintegrasi
 - Karena saling terintegrasi, redundansi dapat dihindari
