@@ -115,38 +115,31 @@ Lebih Lanjut: [PostgreSQL Installation](https://www.postgresql.org/download/linu
 
 
 # Cara Pemakaian
-#####1. Login ke halaman Odoo
+##### 1. Login ke halaman Odoo
 Masuk ke halaman administrasi Odoo melalui web browser pada alamat [localhost:8069](http://localhost:8080) dengan dengan akun default emal: **admin** dan password: **admin**.
 ![Login screen](https://raw.githubusercontent.com/faruqsandi/odoo/master/image/1.usage-login.png)
-#####2. Halaman administrasi Odoo
+##### 2. Halaman administrasi Odoo
 Jika berhasil masuk, maka Odoo secara otomatis akan mengarahkan ke halaman #inbox seperti pada gambar di bawah ini:
 ![Halaman #inbox](https://raw.githubusercontent.com/faruqsandi/odoo/master/image/2.usage-inbox.png)
 Halaman #inbox secara default menampilkan ringkasan dari kotak masuk yang dimiliki oleh pengguna. 
-#####3. Baris menu utama
+##### 3. Baris menu utama
 Pada baris menu atas, terdapat kumpulan menu utama yang terdiri dari Discuss, Calendar, Contacts, CRM, Apps, dan Setting.
-- 
-- 
-- 
-- 
-- 
-- 
-
-#####4. Discuss
+##### 4. Discuss
 ![Halaman Discuss](https://raw.githubusercontent.com/faruqsandi/odoo/master/image/3.usage-inbox-conversation.png)
 Menu **Discus** menyediakan layanan untuk berkomunikasi dengan orang lain, termasuk percakapan melalui direct **message**, **channel**, dan **private channel**. Pada bilah sisi sebelah kanan, juga terdapat **Channel** yang berfungsi seperti *chat room*.
-#####5. Calendar
+##### 5. Calendar
 ![Halaman Calendar](https://raw.githubusercontent.com/faruqsandi/odoo/master/image/4.usage-calendar.png)
 Menu **Calendar** menampilkan halaman agenda harian, bulanan, dan tahunan. Agenda dapat ditampilkan dalam bentuk kalendar maupun daftar kegiatan yang akan dilaksanakan. Odoo dapat memfasilitasi pengguna untuk melakukan kolaborasi dalam menggunakan calendar ini.
-#####6. Contacts
+##### 6. Contacts
 ![Halaman Contacts](https://raw.githubusercontent.com/faruqsandi/odoo/master/image/5.usage-contacts.png)
 Menu **Contacts** menampilkan daftar kontak yang dimiliki oleh pengguna. Dari halaman ini pula menambah, meng*import*, mengubah, dan menghapus kontak.
-#####7. CRM
+##### 7. CRM
 ![Halaman CRM](https://raw.githubusercontent.com/faruqsandi/odoo/master/image/6.usage-crm.png)
 Menu **CRM** dalam halaman inilah inti dari penggunaan Odoo berada. *Consumer Relation Management* (**CRM**) dapat dijalankan melalui halaman ini. Secara *default* tampilan *pipeline*-lah yang dimunculkan, sehingga pengguna bisa lansung melihat gambaran besar dari peluang bisnis
-#####8. Apps
+##### 8. Apps
 ![Halaman Apps](https://raw.githubusercontent.com/faruqsandi/odoo/master/image/7.usage-apps.png)
 Menu **Apps** menampilkan keunggulan lain dari Odoo. Disinilah pengguna dapat menambahkan fitur-fitur yang dapat menunjang proses bisnis. Aplikasi yang ditawarkan dapat dipasang maupun dihilangkan tanpa harus mengubah instalasi inti Odoo.
-#####9. Settings
+##### 9. Settings
 ![Halaman Settings](https://raw.githubusercontent.com/faruqsandi/odoo/master/image/8.usage-setting.png)
 Menu **Settings** adalah tempat untuk melakukan konfigurasi utama dari Odoo. Mulai dari daftar aplikasi yang terinstall, implementasi optimal, sampai dengan melakukan alih bahasa sistem Odoo.
 # Pembahasan
