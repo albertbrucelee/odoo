@@ -4,7 +4,7 @@
 # Apa itu Odoo?
 [`^ kembali ke atas ^`](#)
 
-**Odoo** adalah asasf afasd asfas
+**Odoo** adalah satu aplikasi Enterprise Resource Planning (ERP) 
 
 [Official Web](https://www.odoo.com),  [Demo](https://demo3.odoo.com/web#home),  [Source Code](https://github.com/odoo/odoo)
 
