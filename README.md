@@ -4,7 +4,26 @@
 # Apa itu Odoo?
 [`^ kembali ke atas ^`](#)
 
-**Odoo** adalah satu aplikasi Enterprise Resource Planning (ERP) 
+**Odoo** 
+Kenapa Odoo?
+	Sebelumnya, Odoo ialah satu aplikasi Enterprise Resource Planning (ERP) open source yang dimana berfungsi sebagai suatu sistem manajerial perusahaan yang saling terintegrasi, fleksibilitas tinggi, dan telah dipergunakan diberbagai perusahaan besar didunia.	 
+	Dengan berbagai modul yang telah tersedia pada Odoo yang telah terstruktur berisi kode XML, bahasa Python, dan komponen web menggunakan Javascript.  Serta dilengkapi dengan Database Management System menggunakan PostgreSQL.
+	Kemudahannya yang didapat dari Odoo sendiri dibandingkan Software Enterprise lainnya dari komprehensifnya fungsi dan fitur yang didapatkan, sehingga memudahkan dalam kostumisasi sesuai dengan kebutuhan yang diinginkan.
+
+Kelebihan Odoo?
+
+•	Data tiap modul lengkap dan saling terintegrasi
+•	Karena saling terintegrasi, redundansi dapat dihindari
+•	Multi Platform
+•	Akses informasi yang terpercaya
+•	Hemat waktu dan biaya, serta control yg mudah dalam skala Enterprise
+
+Kekurangan Odoo?
+
+•	Kompleksitas pada konfigurasi tertentu menyulitkan pengguna
+•	Pengembangan Odoo sendiri menggunakan bahasa pemrograman Python, sehingga untuk beberapa kendala masih terbatas informasinya
+•	Karena dikembangkan oleh komunitas, maka pengembangannya masi sering dalam hal perubahan serta perbaikan.
+
 
 [Official Web](https://www.odoo.com),  [Demo](https://demo3.odoo.com/web#home),  [Source Code](https://github.com/odoo/odoo)
 
