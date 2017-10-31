@@ -32,7 +32,6 @@ Kekurangan Odoo?
 
 •	Karena dikembangkan oleh komunitas, maka pengembangannya masi sering dalam hal perubahan serta perbaikan.
 
-
 [Official Web](https://www.odoo.com),  [Demo](https://demo3.odoo.com/web#home),  [Source Code](https://github.com/odoo/odoo)
 
 #### Lisensi:
@@ -43,10 +42,14 @@ Kekurangan Odoo?
 [`^ kembali ke atas ^`](#)
 
 #### Kebutuhan Sistem :
+- Unix, Linux atau Windows.
+- Python 3.5+
+- PostgreSQL
+- RAM minimal 64 Mb+
 
 
 #### Persiapan Server Virtual
-Jika anda ingin menggunakan server virtual, anda bisa mengikuti langkah berikut.
+Pada tutorial ini, instalasi dilakukan pada Server Virtual Ubuntu di Virtualbox. Jika anda ingin menggunakan server virtual, anda bisa mengikuti langkah berikut.
 
 
 
@@ -132,6 +135,16 @@ Lebih Lanjut: [PostgreSQL Installation](https://www.postgresql.org/download/linu
     dimana `../mymodules` adalah direktori addons tambahan, dan `mydb` adalah default db yang akan digunakan
     
 
+#### Menjalankan Odoo pada browser
+1. Tambahkan*port forwarding* dengan ketentuan sebagai berikut:
+
+    Name   | Protocol   | Host IP    | Host Port  | Guest IP   | Guest Port
+    ----   | --------   | -------    | ---------  | --------   | ----------
+    odoo   | TCP        |            | 8069       |            | 8069
+
+2. Buka browser dan akses `http://localhost:8069/`
+
+
 # Konfigurasi
 
 
@@ -142,8 +155,33 @@ Lebih Lanjut: [PostgreSQL Installation](https://www.postgresql.org/download/linu
 
 
 # Cara Pemakaian
-
-
+##### 1. Login ke halaman Odoo
+Masuk ke halaman administrasi Odoo melalui web browser pada alamat [localhost:8069](http://localhost:8080) dengan dengan akun default emal: **admin** dan password: **admin**.
+![Login screen](https://raw.githubusercontent.com/faruqsandi/odoo/master/image/1.usage-login.png)
+##### 2. Halaman administrasi Odoo
+Jika berhasil masuk, maka Odoo secara otomatis akan mengarahkan ke halaman #inbox seperti pada gambar di bawah ini:
+![Halaman #inbox](https://raw.githubusercontent.com/faruqsandi/odoo/master/image/2.usage-inbox.png)
+Halaman #inbox secara default menampilkan ringkasan dari kotak masuk yang dimiliki oleh pengguna. 
+##### 3. Baris menu utama
+Pada baris menu atas, terdapat kumpulan menu utama yang terdiri dari Discuss, Calendar, Contacts, CRM, Apps, dan Setting.
+##### 4. Discuss
+![Halaman Discuss](https://raw.githubusercontent.com/faruqsandi/odoo/master/image/3.usage-inbox-conversation.png)
+Menu **Discus** menyediakan layanan untuk berkomunikasi dengan orang lain, termasuk percakapan melalui direct **message**, **channel**, dan **private channel**. Pada bilah sisi sebelah kanan, juga terdapat **Channel** yang berfungsi seperti *chat room*.
+##### 5. Calendar
+![Halaman Calendar](https://raw.githubusercontent.com/faruqsandi/odoo/master/image/4.usage-calendar.png)
+Menu **Calendar** menampilkan halaman agenda harian, bulanan, dan tahunan. Agenda dapat ditampilkan dalam bentuk kalendar maupun daftar kegiatan yang akan dilaksanakan. Odoo dapat memfasilitasi pengguna untuk melakukan kolaborasi dalam menggunakan calendar ini.
+##### 6. Contacts
+![Halaman Contacts](https://raw.githubusercontent.com/faruqsandi/odoo/master/image/5.usage-contacts.png)
+Menu **Contacts** menampilkan daftar kontak yang dimiliki oleh pengguna. Dari halaman ini pula menambah, meng*import*, mengubah, dan menghapus kontak.
+##### 7. CRM
+![Halaman CRM](https://raw.githubusercontent.com/faruqsandi/odoo/master/image/6.usage-crm.png)
+Menu **CRM** dalam halaman inilah inti dari penggunaan Odoo berada. *Consumer Relation Management* (**CRM**) dapat dijalankan melalui halaman ini. Secara *default* tampilan *pipeline*-lah yang dimunculkan, sehingga pengguna bisa lansung melihat gambaran besar dari peluang bisnis
+##### 8. Apps
+![Halaman Apps](https://raw.githubusercontent.com/faruqsandi/odoo/master/image/7.usage-apps.png)
+Menu **Apps** menampilkan keunggulan lain dari Odoo. Disinilah pengguna dapat menambahkan fitur-fitur yang dapat menunjang proses bisnis. Aplikasi yang ditawarkan dapat dipasang maupun dihilangkan tanpa harus mengubah instalasi inti Odoo.
+##### 9. Settings
+![Halaman Settings](https://raw.githubusercontent.com/faruqsandi/odoo/master/image/8.usage-setting.png)
+Menu **Settings** adalah tempat untuk melakukan konfigurasi utama dari Odoo. Mulai dari daftar aplikasi yang terinstall, implementasi optimal, sampai dengan melakukan alih bahasa sistem Odoo.
 # Pembahasan
 
 
