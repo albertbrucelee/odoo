@@ -117,7 +117,7 @@ Lebih Lanjut: [PostgreSQL Installation](https://www.postgresql.org/download/linu
 # Cara Pemakaian
 Cara menggunakan Odoo sebenarnya mudah. Odoo membagi proses bisnis menjadi beberapa bagian yang dapat dimanajemen oleh pengguna. Bahkan dari proses bisnis tersebut dibagi lagi ke dalam sub-bagian, sehingga pengguna dapat sementara mengalihkan gambaran besar dalam dalam bagian kecil yang lebih mudah dimanajemen.
 ##### 1. Login ke halaman Odoo
-Masuk ke halaman administrasi Odoo melalui web browser pada alamat [localhost:8069](http://localhost:8080) dengan dengan akun default emal: **admin** dan password: **admin**.
+Masuk ke halaman administrasi Odoo melalui web browser pada alamat [localhost:8069](http://localhost:8080) dengan dengan akun default email: **admin** dan password: **admin**.
 ![Login screen](https://raw.githubusercontent.com/faruqsandi/odoo/master/image/1.usage-login.png)
 ##### 2. Halaman administrasi Odoo
 Jika berhasil masuk, maka Odoo secara otomatis akan mengarahkan ke halaman #inbox seperti pada gambar di bawah ini:
