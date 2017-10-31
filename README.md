@@ -16,10 +16,14 @@
 [`^ kembali ke atas ^`](#)
 
 #### Kebutuhan Sistem :
+- Unix, Linux atau Windows.
+- Python 3.5+
+- PostgreSQL
+- RAM minimal 64 Mb+
 
 
 #### Persiapan Server Virtual
-Jika anda ingin menggunakan server virtual, anda bisa mengikuti langkah berikut.
+Pada tutorial ini, instalasi dilakukan pada Server Virtual Ubuntu di Virtualbox. Jika anda ingin menggunakan server virtual, anda bisa mengikuti langkah berikut.
 
 
 
@@ -104,6 +108,16 @@ Lebih Lanjut: [PostgreSQL Installation](https://www.postgresql.org/download/linu
     ```
     dimana `../mymodules` adalah direktori addons tambahan, dan `mydb` adalah default db yang akan digunakan
     
+
+#### Menjalankan Odoo pada browser
+1. Tambahkan*port forwarding* dengan ketentuan sebagai berikut:
+
+    Name   | Protocol   | Host IP    | Host Port  | Guest IP   | Guest Port
+    ----   | --------   | -------    | ---------  | --------   | ----------
+    odoo   | TCP        |            | 8069       |            | 8069
+
+2. Buka browser dan akses `http://localhost:8069/`
+
 
 # Konfigurasi
 
