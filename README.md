@@ -142,30 +142,36 @@ Lebih Lanjut: [PostgreSQL Installation](https://www.postgresql.org/download/linu
 # Konfigurasi
 [`^ kembali ke atas ^`](#)
 
-## Konfigurasi Odoo (Linux)
+### Konfigurasi Odoo (Linux)
 [Konfigurasi Odoo](https://www.odoo.com/documentation/11.0/reference/cmdline.html#reference-cmdline-config)
     ```
     # nano /etc/odoo/odoo.conf
     ```
-    Konfigurasi file sama dengan konfigurasi pada [Windows](#atur-database-dan-password-admin)
+    Konfigurasi file sama dengan konfigurasi pada [Windows](####2.-atur-database-dan-password-admin)
     Restart Odoo setelah mengubah file konfigurasi
     ```
     # service odoo restart
     ```
 
-## Konfigurasi Odoo (Windows)
+### Konfigurasi Odoo (Windows)
 ##### 1. Pilih dan Buka odoo.conf
-![Buka file odoo.conf](https://github.com/aprealian/odoo/blob/master/image/settings%20configuration%20Windows%201.JPG)
-Pertama buka directory instalasi Odoo, didalamnya ada folder **server** untuk path directory tersebut umumnya seperti ini **C:\Program Files (x86)\Odoo 11.0\server**. Di dalam server akan ada file **odoo.conf**, silahkan buka dengan text editor. Gambar di atas merupakan tampilan isi file **odoo.conf** jika dibuka menggunakan Sublime Text Editor.
-##### 2. Atur database dan password admin
-![Settings_database_username_dan_port](https://github.com/aprealian/odoo/blob/master/image/settings%20configuration%20Windows%202.JPG)
-Di dalam file **odoo.conf** silahkan cari **admin_passwd** untuk mengganti password admin. **db_user**  dan **db_password** untuk mengganti database username dan password. **db_port** untuk mengganti port yang digunakan PostgreSQL. Karena Odoo memiliki fasilitas menambahkan modul atau addons kalian bisa menambahkannya pada directory tertentu dan bisa mengganti path directory tersebut pada bagian **addons_path**. 
-**limit-memory-soft** untuk memberikan batasan memory virtual per worker/user. Jika kita isikan **limit_memory_soft = None** maka tidak ada batasan memory. Jika kita isikan **limit-memory-soft=LIMIT_MEMORY_SOFT** maka secara deafult memiliki batasan [671088640 atau 640MB]. Jika lebih akan direset.
-**limit-memory-hard** untuk memberikan batasan memory virtual per worker/user. Jika kita isikan **limit_memory_hard = None** maka tidak ada batasan memory. Jika kita isikan **limit-memory-hard=LIMIT_MEMORY_HARD** maka secara deafult memiliki batasan [805306368 atau 768MB]. Jika lebih maka semua request dari user tersebut akan fail.
-**limit-time-cpu** maksimum CPU time per user. Jika kita isikan **limit_memory_hard = None** maka tidak ada batasan CPU time. Jika kita isikan **limit-time-cpu=LIMIT_TIME_CPU** maka secara deafult memiliki batasan waktu [60 detik].
-**limit-time-real** maksimum real time request per user. Jika kita isikan **limit-time-real = None** maka tidak ada batasan real time request. Jika kita isikan **limit-time-real=LIMIT_TIME_REAL** maka secara deafult memiliki batasan waktu [120 detik].
-**limit-request** maksimum request per proses per user yang diizinkan. Jika kita isikan **limit-request = None** maka tidak ada batasan request. Jika kita isikan **limit-request=LIMIT_REQUEST** maka secara deafult memiliki batasan request [8192 request].
+Pertama buka directory instalasi Odoo, didalamnya ada folder **server** untuk path directory tersebut umumnya seperti ini **C:\Program Files (x86)\Odoo 11.0\server**. Di dalam server akan ada file **odoo.conf**, silahkan buka dengan text editor. Berikut gambar tampilan isi file **odoo.conf** jika dibuka menggunakan Sublime Text Editor.
+![Buka file odoo.conf](https://github.com/aprealian/odoo/blob/master/image/settings%20configuration%20Windows%201.JPG) 
 
+##### 2. Atur database dan password admin
+Di dalam file **odoo.conf** silahkan cari **admin_passwd** untuk mengganti password admin. **db_user**  dan **db_password** untuk mengganti database username dan password. **db_port** untuk mengganti port yang digunakan PostgreSQL. Karena Odoo memiliki fasilitas menambahkan modul atau addons kalian bisa menambahkannya pada directory tertentu dan bisa mengganti path directory tersebut pada bagian **addons_path**. 
+
+![Settings_database_username_dan_port](https://github.com/aprealian/odoo/blob/master/image/settings%20configuration%20Windows%202.JPG)
+
+Pada **limit-memory-soft** untuk memberikan batasan memory virtual per worker/user. Jika kita isikan **limit_memory_soft = None** maka tidak ada batasan memory. Jika kita isikan **limit-memory-soft=LIMIT_MEMORY_SOFT** maka secara deafult memiliki batasan [671088640 atau 640MB]. Jika lebih akan direset.
+
+Pada **limit-memory-hard** untuk memberikan batasan memory virtual per worker/user. Jika kita isikan **limit_memory_hard = None** maka tidak ada batasan memory. Jika kita isikan **limit-memory-hard=LIMIT_MEMORY_HARD** maka secara deafult memiliki batasan [805306368 atau 768MB]. Jika lebih maka semua request dari user tersebut akan fail.
+
+Pada **limit-time-cpu** maksimum CPU time per user. Jika kita isikan **limit_memory_hard = None** maka tidak ada batasan CPU time. Jika kita isikan **limit-time-cpu=LIMIT_TIME_CPU** maka secara deafult memiliki batasan waktu [60 detik].
+
+Pada **limit-time-real** maksimum real time request per user. Jika kita isikan **limit-time-real = None** maka tidak ada batasan real time request. Jika kita isikan **limit-time-real=LIMIT_TIME_REAL** maka secara deafult memiliki batasan waktu [120 detik].
+
+Pada **limit-request** maksimum request per proses per user yang diizinkan. Jika kita isikan **limit-request = None** maka tidak ada batasan request. Jika kita isikan **limit-request=LIMIT_REQUEST** maka secara deafult memiliki batasan request [8192 request].
 
 
 
