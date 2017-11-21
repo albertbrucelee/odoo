@@ -124,6 +124,16 @@ Lebih Lanjut: [PostgreSQL Installation](https://www.postgresql.org/download/linu
 
 
 # Maintenance
+Maintenance merupakan salah satu fitur dari Odoo, karena Odoo terdiri dari beberapa modul yang bisa dicustomize sesuai kebutuhan pengguna ataupun perusahaan. Dalam penyesuaian tersebut tak jarak dilakukan pada backend atau baris kode, sehingga memungkinkan terjadinya error. Untuk mengidentifikasi dan menampilkan error, maka kita aktifkan Developer Mode.
+##### 1. Pilih Settings
+Pada menu bagian atas, silahkan pilih menu **Settings** (yang dilingkari merah).
+![Pilih menu setting](https://github.com/aprealian/odoo/blob/master/image/odoo-settings.png)
+##### 2. Pilih Activate the developer mode
+Setelah memilih menu **Setting**, maka akan ditampilkan halaman seperti gambar dibawah ini. Pada bagian bawah terdapat dua buah menu yakni **Activate the developer mode** dan **Activate the developer mode (with assets)**.
+![Activate developer mode](https://github.com/aprealian/odoo/blob/master/image/odoo-settings2.png)
+##### 3. Terjadi perubahan pada URL
+Jika sukses masuk pada **Developer mode**, bisa dilihat pada bagian URL seperti gambar di bawah ini. Kalau ada kata **debug** maka artinya proses telah berhasil
+![Developer mode sukses](https://github.com/aprealian/odoo/blob/master/image/odoo-settings3.png)
 
 
 # Otomatisasi
