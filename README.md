@@ -143,15 +143,14 @@ Lebih Lanjut: [PostgreSQL Installation](https://www.postgresql.org/download/linu
 [`^ kembali ke atas ^`](#)
 
 ### Konfigurasi Odoo (Linux)
-[Konfigurasi Odoo](https://www.odoo.com/documentation/11.0/reference/cmdline.html#reference-cmdline-config)
-    ```
-    # nano /etc/odoo/odoo.conf
-    ```
-    Konfigurasi file sama dengan konfigurasi pada [Windows](####2.-atur-database-dan-password-admin)
-    Restart Odoo setelah mengubah file konfigurasi
-    ```
-    # service odoo restart
-    ```
+[Konfigurasi file](https://www.odoo.com/documentation/11.0/reference/cmdline.html#reference-cmdline-config) sama dengan konfigurasi pada [Windows](####2-atur-database-dan-password-admin)
+```
+# nano /etc/odoo/odoo.conf
+```
+Restart Odoo setelah mengubah file konfigurasi
+```
+# service odoo restart
+```
 
 ### Konfigurasi Odoo (Windows)
 ##### 1. Pilih dan Buka odoo.conf
