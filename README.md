@@ -26,7 +26,22 @@ Kemudahannya yang didapat dari Odoo sendiri dibandingkan Software Enterprise lai
 #### Persiapan Server Virtual
 Pada tutorial ini, instalasi dilakukan pada Server Virtual Ubuntu di Virtualbox. Jika anda ingin menggunakan server virtual, anda bisa mengikuti langkah berikut.
 
+1. Install dan jalankan [Virtual Box](https://www.virtualbox.org/wiki/Downloads) 
 
+2. [Download](https://www.ubuntu.com/download/server), [install](http://www.tecmint.com/installation-of-ubuntu-16-04-server-edition/) dan jalankan Ubuntu Server pada Virtual Box
+
+3. Setting Port Forwading pada Virtual Box. Masuk ke '*Settings -> Network -> Advanced -> Port Forwarding*'
+
+	Name   | Protocol   | Host IP    | Host Port  | Guest IP   | Guest Port
+	----   | --------   | -------    | ---------  | --------   | ----------
+	http   | TCP        |            | 8888       |            | 80
+	ssh    | TCP        |            | 2222       |            | 22
+
+4. Remote server menggunakan SSH. Untuk pengguna Windows dapat menggunakan [PUTTY](http://www.putty.org/)
+    ```
+    $ ssh student@localhost -p 2222
+    ```
+    Dengan `student` adalah user pada server, 2222 adalah Host Port SSH ke server
 
 
 #### Instalasi Default:
@@ -121,9 +136,12 @@ Lebih Lanjut: [PostgreSQL Installation](https://www.postgresql.org/download/linu
 
 
 # Konfigurasi
+[`^ kembali ke atas ^`](#)
 
 
 # Maintenance
+[`^ kembali ke atas ^`](#)
+
 Maintenance merupakan salah satu fitur dari Odoo, karena Odoo terdiri dari beberapa modul yang bisa dicustomize sesuai kebutuhan pengguna ataupun perusahaan. Dalam penyesuaian tersebut tak jarak dilakukan pada backend atau baris kode, sehingga memungkinkan terjadinya error. Untuk mengidentifikasi dan menampilkan error, maka kita aktifkan Developer Mode.
 ##### 1. Pilih Settings
 Pada menu bagian atas, silahkan pilih menu **Settings** (yang dilingkari merah).
@@ -137,18 +155,22 @@ Jika sukses masuk pada **Developer mode**, bisa dilihat pada bagian URL seperti 
 
 
 # Otomatisasi
+[`^ kembali ke atas ^`](#)
 
 
 # Cara Pemakaian
+[`^ kembali ke atas ^`](#)
+
+Cara menggunakan Odoo sebenarnya mudah. Odoo membagi proses bisnis menjadi beberapa bagian yang dapat dimanajemen oleh pengguna. Bahkan dari proses bisnis tersebut dibagi lagi ke dalam sub-bagian, sehingga pengguna dapat sementara mengalihkan gambaran besar dalam dalam bagian kecil yang lebih mudah dimanajemen.
 ##### 1. Login ke halaman Odoo
-Masuk ke halaman administrasi Odoo melalui web browser pada alamat [localhost:8069](http://localhost:8080) dengan dengan akun default emal: **admin** dan password: **admin**.
+Masuk ke halaman administrasi Odoo melalui web browser pada alamat [localhost:8069](http://localhost:8080) dengan dengan akun default email: **admin** dan password: **admin**.
 ![Login screen](https://raw.githubusercontent.com/faruqsandi/odoo/master/image/1.usage-login.png)
 ##### 2. Halaman administrasi Odoo
 Jika berhasil masuk, maka Odoo secara otomatis akan mengarahkan ke halaman #inbox seperti pada gambar di bawah ini:
 ![Halaman #inbox](https://raw.githubusercontent.com/faruqsandi/odoo/master/image/2.usage-inbox.png)
 Halaman #inbox secara default menampilkan ringkasan dari kotak masuk yang dimiliki oleh pengguna. 
 ##### 3. Baris menu utama
-Pada baris menu atas, terdapat kumpulan menu utama yang terdiri dari Discuss, Calendar, Contacts, CRM, Apps, dan Setting.
+Pada baris menu atas, terdapat kumpulan menu utama yang terdiri dari **Discuss**, **Calendar**, **Contacts**, **CRM**, **Apps**, dan **Setting**.
 ##### 4. Discuss
 ![Halaman Discuss](https://raw.githubusercontent.com/faruqsandi/odoo/master/image/3.usage-inbox-conversation.png)
 Menu **Discus** menyediakan layanan untuk berkomunikasi dengan orang lain, termasuk percakapan melalui direct **message**, **channel**, dan **private channel**. Pada bilah sisi sebelah kanan, juga terdapat **Channel** yang berfungsi seperti *chat room*.
@@ -170,7 +192,8 @@ Menu **Settings** adalah tempat untuk melakukan konfigurasi utama dari Odoo. Mul
 
 
 # Pembahasan
-Pembahasan Odoo
+[`^ kembali ke atas ^`](#)
+
 Odoo dibuat menggunakan bahasa pemrograman python, javascript, dan memanfaatkan XML sebagai webservice. Seperti yang sudah dijelaskan di awal Odoo merupakan aplikasi Enterprise Resource Planning (ERP). Di mana aplikasi ini berguna untuk mengorganisir atau memanajemen sumber daya perusahaan. Karena perkembangan yang begitu cepat saat ini Odoo telah mendukung 18 bahasa. Kelebihan lain dari odoo adalah didalamnya tersedia banyak modul yang bisa dimanfaatkan. Antara lain baik human resource, gaji karywan, inventory/asset perusahaan, dan masih banyak lagi. Selain itu ada modul blog untuk membuat artikel dan blog untuk perusahaan. Tidak semua modul langsung diinstall akan tetapi dapat disesuaikan dengan kebutuhan pengguna.
 
 Berikut akan dijelaskan beberapa modul yang ada di dalam Odoo  :
