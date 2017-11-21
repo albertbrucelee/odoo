@@ -188,7 +188,7 @@ Menu **CRM** dalam halaman inilah inti dari penggunaan Odoo berada. *Consumer Re
 ![Halaman Apps](image/7.usage-apps.png)
 Menu **Apps** menampilkan keunggulan lain dari Odoo. Disinilah pengguna dapat menambahkan fitur-fitur yang dapat menunjang proses bisnis. Aplikasi yang ditawarkan dapat dipasang maupun dihilangkan tanpa harus mengubah instalasi inti Odoo.
 
-######8.1 Memasang aplikasi baru
+**8.1 Memasang aplikasi baru**
 Cara memasang aplikasi baru untuk ditambakan ke Odoo benar-benar mudah! Kita perlu terlebih dahulu masuk ke halaman Apps, kemudian mengklik modul yang ingin dipasang. Pada contoh ini kita akan coba measang **point of sale** (**POS**) yang merupakan perangkat penjualan paling luar untuk melakukan transaksi dengan pelanggan. Untuk memasang **POS**, klik *install* seperti yang ditunjukan pada gambar di bawah ini.
 ![Memilih point of sale](image/7.1.point-of-sale-install0.png)
 Tampilan yang gelap dan terdapat ikon *loading*, menunjukkan modul sedang dipasang. Tunggu beberapa saat.
@@ -198,7 +198,7 @@ Saat pemasangan selesai, maka anda akan dibawa secara otomatis ke tampilan *defa
 Pada menu **Point of Sale**, pengguna dapat memulai sesi **POS** baru dengan mengklik tombol *New Session*. Saat sebuah sesi **POS** dimulai, maka Odoo akan bekerja layaknya mesin **POS** di toko.
 ![Tampilan sesi POS](image/7.1.point-of-sale-install3.png)
 ---
-######8.2 Meningkatkan versi aplikasi terpasang
+**8.2 Meningkatkan versi aplikasi terpasang**
 Meningkatkan versi aplikasi terpasang dilakukan melalui halaman **Apps**. Pilih aplikasi terpasang yang ingin ditingkatkan versinya.
 ![Memilih modul yang akan ditingkatkan](image/7.2.point-of-sale-upgrade0.png)
 Setelah itu, maka tampilan administrasi aplikasi akan ditampilkan seperti pada gambar di bawah ini:
@@ -208,7 +208,7 @@ Kemudian, klik *upgrade* untuk meningkatkan versi. Setelah itu proses peningkata
 Jika peningkatan versi berhasil, maka pengguna akan dibawa ke layar *default* seperti pada saat pemasangan aplikai baru.
 ![Proses peningkatan versi modul berhasil](image/7.2.point-of-sale-upgrade3.png)
 ---
-######8.3 Menghapus aplikasi terpasang
+**8.3 Menghapus aplikasi terpasang**
 Menghapus aplikasi yang terpasang, semudah memasang aplikasi tersebut. Pengguna harus masuk ke halaman **Apps** terlebih dahulu. Kemudian, pada aplikasi yang terpasang, klik untuk membuka opsi. Pada contoh ini, aplikasi **POS** yang sebelumnya terpasang, akan dihapus.
 ![Memilih modul yang akan dihapus](image/7.3.point-of-sale-uninstall0.png)
 Setelah itu, maka tampilan administrasi aplikasi akan ditampilkan seperti pada gambar di bawah ini:
