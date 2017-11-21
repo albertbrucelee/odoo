@@ -147,7 +147,7 @@ Lebih Lanjut: [PostgreSQL Installation](https://www.postgresql.org/download/linu
     ```
     # nano /etc/odoo/odoo.conf
     ```
-    Konfigurasi file sama dengan konfigurasi pada [Windows](#konfigurasi-odoo-(windows))
+    Konfigurasi file sama dengan konfigurasi pada [Windows](#atur-database-dan-password-admin)
     Restart Odoo setelah mengubah file konfigurasi
     ```
     # service odoo restart
